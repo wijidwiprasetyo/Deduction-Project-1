@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Ubuntu:wght@700&display=swap");
+body .custom-nav {
+  background-color: #f69f26;
+}
+
+body .custom-nav .container .navbar-brand {
+  padding: 2em;
+}
+
+body .custom-nav .container .navbar-brand img {
+  width: 25px;
+  height: 25px;
+}
+
+body .custom-nav .container .navbar-brand span {
+  color: white;
+}
+
+body .custom-nav .container .collapse .navbar-nav li {
+  margin-left: 1em;
+}
+
+body .custom-nav .container .collapse .navbar-nav li a {
+  color: white;
+}
+
+body .custom-nav .container .collapse .navbar-nav li a:hover {
+  color: #0d1e51;
+}
+/*# sourceMappingURL=navbar.css.map */

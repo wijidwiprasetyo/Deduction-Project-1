@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&family=Fredericka+the+Great&family=Secular+One&display=swap");
+body .custom-nav {
+  background-color: #58B4C8;
+}
+
+body .custom-nav .container .navbar-brand {
+  padding: 2em;
+}
+
+body .custom-nav .container .collapse .navbar-nav li {
+  margin-left: 1em;
+}
+
+body .custom-nav .container .collapse .navbar-nav li a {
+  color: white;
+}
+
+body .custom-nav .container .collapse .navbar-nav li a:hover {
+  color: #F8DD4F;
+}
+/*# sourceMappingURL=navbar.css.map */

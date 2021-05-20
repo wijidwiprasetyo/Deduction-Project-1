@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&family=Fredericka+the+Great&family=Secular+One&display=swap");
+body {
+  background-color: #58B4C8;
+}
+
+h1 {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 700;
+  color: #F8DD4F;
+}
+
+h1 span {
+  color: #58B4C8;
+}
+
+p {
+  font-family: 'Encode Sans', sans-serif;
+  color: #5E5050;
+}
+
+.container .custom-card {
+  box-shadow: 21px 30px 82px rgba(0, 0, 0, 0.25);
+}
+
+.container .custom-card .row .custom-login-image img {
+  width: 810px;
+  height: 560px;
+}
+
+.user .form-group {
+  margin-bottom: .5em;
+}
+
+.user .form-group .form-control-user {
+  height: 3em;
+  background-color: #E0E0E0;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-control-register {
+  height: 3em;
+  background-color: #E0E0E0;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: .5em;
+}
+
+.form-control-btn {
+  min-height: 3em;
+  width: 100%;
+  background-color: #58B4C8;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+
+.btn-login {
+  display: inline-block;
+  background-color: #58B4C8;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 0;
+  border-radius: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  transition: 0.3s color ease;
+  width: 20em;
+}
+
+.btn-login:hover {
+  background-color: #E2707E;
+}
+
+.form-group a {
+  text-decoration: none;
+  color: #5E5050;
+}
+
+.text-center a {
+  text-decoration: none;
+  color: #E2707E;
+}
+/*# sourceMappingURL=auth.css.map */

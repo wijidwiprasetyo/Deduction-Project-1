@@ -1,0 +1,96 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Ubuntu:wght@700&display=swap");
+
+// variable
+$primaryColor: #ee9300;
+$secondaryColor: #0d1e51;
+$tertiaryColor: #f69f26;
+$textColor: #7394ff;
+
+body{
+    .container-menu{
+        .sidebar-1{
+            background-color: #E0E0E0;
+            padding: 1em;
+            padding-top: 2em;
+            box-sizing: border-box;
+            h3{
+                margin-bottom: 1em;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    margin-bottom: 1em;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .btn-primary{
+                margin: auto auto;
+                margin-bottom: 1em;
+                text-align: center;
+                border: none;
+                background-color: white;
+                color: $secondaryColor;
+                font-weight: bold;
+                height: 50px;
+                width: 200px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                &:hover{
+                    background-color: $secondaryColor;
+                    color: white;
+                }
+            }
+
+        }
+        .main-content{
+            padding: 1em;
+            padding-top: 2em;
+            box-sizing: border-box;
+            margin-left: 2em;
+            // margin-right: 2em;
+            flex: 3;
+            order: 2; //urutan blok flex
+            h1{
+                margin-bottom: 1em;
+            }
+        }
+        .sidebar-2{
+            padding: 1em;
+            padding-top: 2em;
+            box-sizing: border-box;
+            .card-information{
+                border: none;
+                box-shadow: 11px 15px 36px rgba(246, 159, 38, 0.25);
+                border-radius: 10px;
+                padding: 1em;
+                h3{
+                    font-size: 1.5em;
+                    color: $primaryColor;
+                }
+                p{
+                    font-size: .8em;
+                    color: #BDBDBD;
+                }
+            }
+        }
+        @media (min-width : 992px) {
+            display: flex; //agar menjadi satu baris
+            justify-content: space-between;
+            .sidebar-1{
+                flex: 1; //ukuran 1/5(jumlah total flex) dari konten
+                order: 1; //urutan blok flex
+            }
+            .main-content{
+                flex: 3;
+                order: 2; //urutan blok flex
+            }
+            .sidebar-2{
+                flex: 1;
+                order: 3; //urutan blok flex
+            }
+        }
+    }
+}

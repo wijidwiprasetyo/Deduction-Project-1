@@ -1,0 +1,40 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&family=Fredericka+the+Great&family=Secular+One&display=swap');
+
+// variable
+$primaryColor: #58B4C8;
+$secondaryColor: #F8DD4F;
+$tertiaryColor: #FFEBCE;
+$textColor: #5E5050;
+
+body {
+    .custom-nav {
+        background-color: $primaryColor;
+        // background-color: #C4C4C4;
+        .container {
+            .navbar-brand {
+                padding: 2em;
+            }
+            .navbar-toggler{
+                .navbar-toggler-icon{
+                }
+            }
+            .collapse {
+                .navbar-nav {
+                    li {
+                        margin-left: 1em;
+                        a{
+                            color: white;
+                            &:hover{
+                                color: $secondaryColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // .card{
+    //     margin: 2em;
+    // }
+}

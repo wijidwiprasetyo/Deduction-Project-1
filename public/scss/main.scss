@@ -1,0 +1,286 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&family=Fredericka+the+Great&family=Secular+One&display=swap');
+
+// variable
+$primaryColor: #58B4C8;
+$secondaryColor: #F8DD4F;
+$tertiaryColor: #FFEBCE;
+$textColor: #5E5050;
+
+// mixin tombol
+@mixin tombol {
+  display: inline-block;
+  background-color: $primaryColor;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 0;
+  border-radius: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  transition: 0.3s color ease;
+
+  &:hover {
+    background-color: $tertiaryColor;
+  }
+}
+
+@mixin sectionTitle{
+    font-family: "Secular One",sans-serif;
+    color: $primaryColor;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3.5em;
+}
+@mixin sectionLine{
+    width: 100px;
+    height: 4px;
+    background-color: $tertiaryColor;
+    margin: 15px auto;
+    display: block;
+    border-radius: 0.5em;
+}
+@mixin sectionText{
+    color: $textColor;
+}
+@mixin cardTittle {
+    font-family: "Encode Sans",sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+// style
+body {
+  font-family: "Encode sans", sans-serif;
+  //   font-family: "Ubuntu", sans-serif;
+  background-image: url(../img/welcome/bg-jumbotron.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  //vmax/vmin digunakan untuk sebagian dari layar
+  background-size: 52vmax;
+}
+// navigation
+.custom-nav {
+  .container-fluid {
+    .navbar-brand {
+      img {
+        width: 25px;
+        height: 25px;
+        margin-top: -10px;
+      }
+      span {
+        font-family: 'Fredericka the Great', cursive;
+        color: $primaryColor;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-left: 0.3em;
+        span{
+            color: $textColor;
+            margin-left: 0em;
+        }
+      }
+    }
+
+    #navbarNav {
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: #5E5050;
+            font-weight: 400;
+            font-size: 1.1rem;
+            margin-left: 2.5em;
+            transition: 0.3s color ease;
+
+            &:hover {
+              // darken untuk ke gelap
+              color: darken($primaryColor, 50%);
+            }
+          }
+          .sign-up-btn {
+            @include tombol;
+            background-color: white;
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    margin-top: -1em;
+  }
+}
+
+.custom-content {
+  h2 {
+    font-family: "Secular One", sans-serif;
+    margin-top: 1.2em;
+    color: $secondaryColor;
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+  p {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    color: $textColor;
+    font-size: 1.3em;
+  }
+  a {
+    @include tombol;
+    border: 1px solid transparent;
+
+    &:hover {
+      color: $primaryColor;
+      background-color: transparent;
+      border: 1px solid $primaryColor;
+    }
+  }
+}
+
+// our services
+.section-title{
+    @include sectionTitle;
+}
+.section-line{
+    @include sectionLine;
+}
+.section-text{
+    @include sectionText;
+}
+.service-card{
+    margin: 10px auto; // supaya ketengah terus saat ditampilan mobile
+    padding-top: 4em;
+    padding-bottom: 2em;
+    border: none;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    padding: 2em;
+    width: 320px;
+    height: 480px;
+    &__img{
+        padding: 16px;
+    }
+
+    .card-tittle{
+        @include cardTittle;
+        font-family: "Secular One", sans-serif;
+        color: $primaryColor;
+    }
+    .card-text{
+        @include sectionText;
+        font-size: .8em;
+        margin-top: 2em;
+    }
+}
+.btn-center{
+    text-align: center;
+    .section-button{
+        @include tombol;
+        margin: 3.5em auto;
+        display: inline-block;
+        color : $textColor;
+        background-color: white;
+        border: 1px solid $primaryColor;
+        &:hover{
+            color: white;
+        }
+
+    }
+}
+// end ourservices
+
+// feature section
+.feature-detail{
+    // margin-top: 0em;
+    .feature-title{
+        // margin-top: -6em;
+        font-family: "Secular One",sans-serif;
+        color: $primaryColor;
+        font-size: 2em;
+    }
+    .feature-text{
+        margin-top: 1em;
+        @include sectionText;
+    }
+    .feature-button{
+        margin-top: 1em;
+        @include tombol;
+        color: $textColor;
+        background-color: white;
+        border: 1px solid $primaryColor;
+
+        &:hover{
+            color:white;
+        }
+    }
+
+}
+// end feature section
+
+// article section
+.article-card{
+    margin: 10px auto;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.25);
+    .card-title{
+        @include cardTittle;
+    }
+    .card-text{
+        @include sectionText;
+    }
+    .link-article{
+        color: $primaryColor;
+
+    }
+    .card-body{
+        padding: 1.5em;
+    }
+
+}
+.btn-center{
+    text-align: center;
+    .article-button{
+        @include tombol;
+        margin: 3.5em auto;
+        display: inline-block;
+        color : $textColor;
+        background-color: white;
+        border: 1px solid $primaryColor;
+        &:hover{
+            color: white;
+        }
+
+    }
+}
+
+//footer
+footer{
+    padding: 3em 0em;//atas bawah - kiri kanan
+    background: $primaryColor;
+    .footer-about{
+        color: white;
+    }
+    .footer-title{
+        font-weight: bold;
+        margin-bottom: 2em;
+        color: white;
+        font-size:1.3em;
+    }
+    ul{
+        padding: 0px;
+        li{
+            list-style: none;
+            margin-bottom: 1em;
+            a{
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    color: #0d1e51;
+                }
+            }
+        }
+    }
+}
+

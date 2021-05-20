@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,UADM,CACN,OAAO,CAAC;EACJ,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "../scss/pras.scss"
+    ],
+    "names": [],
+    "file": "pras.css"
+}

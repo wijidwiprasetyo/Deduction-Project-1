@@ -104,80 +104,46 @@
         {{-- Our services --}}
         <div class="container">
             <section>
-                <h2 class="section-title">Our services</h2>
+                <h2 class="section-title">Donasi Pendidikan</h2>
                 <span class="section-line"></span>
                 <p class="text-center w-75 mx-auto section-text"> <!-- with 75 % dengan margin horizontal auto (untuk ketengah) -->
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
+                    Kami memberikan pilihan jenis donasi yang sesuai dengan yang anda inginkan, dimanapun dan dalam berbagai bentuk
                 </p>
 
                 {{-- services card --}}
                 <div class="row mt-5">
                     <div class="col-md-6 col-lg-4"> <!-- jika pada tablet 2 kolom jika pada desktop 3 kolom-->
                         <div class="card service-card">
-                            <div class="service-card__img">
-                                <img src="{{asset('front/img/our_service_1.png')}}" alt="">
+                            <div class="d-flex justify-content-center service-card__img ">
+                                <img src="{{asset('img/welcome/donasi-pendidikan-1.png')}}" class="" alt="">
                             </div>
                             <div class="card-body">
-                                <h4 class="card-tittle">judul 1</h4>
+                                <h4 class="text-center card-tittle">Donasi Uang</h4>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                           </div>
                     </div>
                     <div class="col-md-6 col-lg-4"> <!-- jika pada tablet 2 kolom jika pada desktop 3 kolom-->
                         <div class="card service-card">
-                            <div class="service-card__img">
-                                <img src="{{asset('front/img/our_service_2.png')}}" alt="">
+                            <div class="d-flex justify-content-center service-card__img">
+                                <img src="{{asset('img/welcome/donasi-pendidikan-2.png')}}" alt="">
                             </div>
                             <div class="card-body">
-                                <h4 class="card-tittle">judul 2</h4>
+                                <h4 class="text-center card-tittle">Donasi Barang</h4>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                           </div>
                     </div>
                     <div class="col-md-6 col-lg-4"> <!-- jika pada tablet 2 kolom jika pada desktop 3 kolom-->
                         <div class="card service-card">
-                            <div class="service-card__img">
-                                <img src="{{asset('front/img/our_service_3.png')}}" alt="">
+                            <div class="d-flex justify-content-center service-card__img">
+                                <img src="{{asset('img/welcome/donasi-pendidikan-3.png')}}" alt="">
                             </div>
                             <div class="card-body">
-                                <h4 class="card-tittle">judul 3</h4>
+                                <h4 class="text-center card-tittle">Donasi Mengajar</h4>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4"> <!-- jika pada tablet 2 kolom jika pada desktop 3 kolom-->
-                        <div class="card service-card">
-                            <div class="service-card__img">
-                                <img src="{{asset('front/img/our_service_4.png')}}" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-tittle">judul 4</h4>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4"> <!-- jika pada tablet 2 kolom jika pada desktop 3 kolom-->
-                        <div class="card service-card">
-                            <div class="service-card__img">
-                                <img src="{{asset('front/img/our_service_5.png')}}" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-tittle">judul 5</h4>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4"> <!-- jika pada tablet 2 kolom jika pada desktop 3 kolom-->
-                        <div class="card service-card">
-                            <div class="service-card__img">
-                                <img src="{{asset('front/img/our_service_6.png')}}" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-tittle">judul 6</h4>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                          </div>
-                    </div>
+                        </div>
                 </div>
                 {{-- end services card --}}
                 <div class="btn-center">
@@ -199,7 +165,7 @@
                 <div class="col-md-6 col-lg-5"> <!-- jika pada tablet 2 kolom, jika pada desktop 2 kolom dengan jarak agak jauh-->
                     <div class="feature-detail">
                         <h2 class="feature-title">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, laboriosam.
+                            Sekolah di Daerah 3T Kekurangan Fasilitas Belajar
                         </h2>
                         <p class="text-justify feature-text ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
@@ -216,7 +182,7 @@
                 <div class="col-md-6 col-lg-5"> <!-- jika pada tablet 2 kolom, jika pada desktop 2 kolom dengan jarak agak jauh-->
                     <div class="feature-detail">
                         <h2 class="feature-title">
-                            Lorem ipsum dolor sit amet.
+                            Membantu kurangnya Guru Sambil Belajar Mengajar di Sekolah 3T
                         </h2>
                         <p class="text-justify feature-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
@@ -245,7 +211,7 @@
                 <div class="row mt-5">
                     <div class="col-md-6 col-lg-4">
                         <div class="card article-card">
-                            <img src="{{asset('front/img/section4_1.png')}}" class="card-img-top" alt="...">
+                            <img src="{{asset('img/welcome/article-1.png')}}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna ....</p>
@@ -255,7 +221,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card article-card">
-                            <img src="{{asset('front/img/section4_2.png')}}" class="card-img-top" alt="...">
+                            <img src="{{asset('img/welcome/article-2.png')}}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna ....</p>
@@ -265,7 +231,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card article-card">
-                            <img src="{{asset('front/img/section4_3.png')}}" class="card-img-top" alt="...">
+                            <img src="{{asset('img/welcome/article-3.png')}}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet. </h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna ....</p>
@@ -289,10 +255,10 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-12 col-lg-4">
                         <div class="footer-about">
-                            <img src="{{asset('front/img/logo-litportal-no bg 2.png')}}" class="footer-about__img" alt="">
+                            <img src="{{asset('img/welcome/logo text.png')}}" class="footer-about__img" alt="">
                             <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor
                             </p>
-                            <p>©Litportal 2021</p>
+                            <p>©Deducation 2021</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-2">

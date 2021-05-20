@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;700&family=Fredericka+the+Great&family=Secular+One&display=swap');
+
+body {
+  font-family: "Encode Sans", sans-serif;
+  background-image: url(../img/welcome/bg-jumbotron.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 52vmax;
+}
+
+.custom-nav .container-fluid .navbar-brand img {
+  width: 25px;
+  height: 25px;
+  margin-top: -10px;
+}
+
+.custom-nav .container-fluid .navbar-brand span {
+  color: #ee9300;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-left: 0.3em;
+}
+
+.custom-nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #5D5050;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-left: 4em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.custom-nav .container-fluid #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: black;
+}
+
+.custom-nav .container-fluid #navbarNav .navbar-nav .nav-item .sign-up-btn {
+  display: inline-block;
+  background-color: #ee9300;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 0;
+  border-radius: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+  background-color: white;
+  color: #ee9300;
+}
+
+.custom-nav .container-fluid #navbarNav .navbar-nav .nav-item .sign-up-btn:hover {
+  background-color: #f69f26;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-top: -1em;
+  }
+}
+
+.custom-content h2 {
+  font-family: "Secular One", sans-serif;
+  margin-top: 1.2em;
+  color: #0d1e51;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.custom-content p {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  color: #7394ff;
+  font-size: 1.3em;
+}
+
+.custom-content a {
+  display: inline-block;
+  background-color: #ee9300;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 0;
+  border-radius: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+  border: 1px solid transparent;
+}
+
+.custom-content a:hover {
+  background-color: #f69f26;
+}
+
+.custom-content a:hover {
+  color: #ee9300;
+  background-color: transparent;
+  border: 1px solid #ee9300;
+}
+
+.section-title {
+  font-family: "Ubuntu",sans-serif;
+  color: #0d1e51;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 3.5em;
+}
+
+.section-line {
+  width: 100px;
+  height: 4px;
+  background-color: #f69f26;
+  margin: 15px auto;
+  display: block;
+  border-radius: 0.5em;
+}
+
+.section-text {
+  color: #7394ff;
+}
+
+.service-card {
+  margin: 10px auto;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  border: none;
+  -webkit-box-shadow: 11px 15px 36px rgba(238, 147, 0, 0.3);
+          box-shadow: 11px 15px 36px rgba(238, 147, 0, 0.3);
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.service-card__img {
+  padding: 16px;
+}
+
+.service-card .card-tittle {
+  font-family: "Ubuntu",sans-serif;
+  color: black;
+  font-size: 1.5em;
+}
+
+.service-card .card-text {
+  color: #7394ff;
+  font-size: .8em;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.btn-center .section-button {
+  display: inline-block;
+  background-color: #ee9300;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 0;
+  border-radius: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+  margin: 3.5em auto;
+  display: inline-block;
+  color: #7394ff;
+  background-color: white;
+  border: 1px solid #ee9300;
+}
+
+.btn-center .section-button:hover {
+  background-color: #f69f26;
+}
+
+.btn-center .section-button:hover {
+  color: white;
+}
+
+.feature-detail .feature-title {
+  font-family: "Ubuntu",sans-serif;
+  color: #0d1e51;
+  font-size: 2em;
+}
+
+.feature-detail .feature-text {
+  margin-top: 1em;
+  color: #7394ff;
+}
+
+.feature-detail .feature-button {
+  margin-top: 1em;
+  display: inline-block;
+  background-color: #ee9300;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 0;
+  border-radius: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+  color: #7394ff;
+  background-color: white;
+  border: 1px solid #ee9300;
+}
+
+.feature-detail .feature-button:hover {
+  background-color: #f69f26;
+}
+
+.feature-detail .feature-button:hover {
+  color: white;
+}
+
+.article-card {
+  margin: 10px auto;
+  border-radius: 18px;
+  border: none;
+  -webkit-box-shadow: 11px 15px 36px rgba(238, 147, 0, 0.3);
+          box-shadow: 11px 15px 36px rgba(238, 147, 0, 0.3);
+}
+
+.article-card .card-title {
+  font-family: "Ubuntu",sans-serif;
+  color: black;
+  font-size: 1.5em;
+}
+
+.article-card .card-text {
+  color: #7394ff;
+}
+
+.article-card .link-article {
+  color: #ee9300;
+}
+
+.article-card .card-body {
+  padding: 1.5em;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.btn-center .article-button {
+  display: inline-block;
+  background-color: #ee9300;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 0;
+  border-radius: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+  margin: 3.5em auto;
+  display: inline-block;
+  color: #7394ff;
+  background-color: white;
+  border: 1px solid #ee9300;
+}
+
+.btn-center .article-button:hover {
+  background-color: #f69f26;
+}
+
+.btn-center .article-button:hover {
+  color: white;
+}
+
+footer {
+  padding: 3em 0em;
+  background: linear-gradient(150.91deg, #FFC370 -41.72%, #EE9300 82.12%);
+}
+
+footer .footer-about {
+  color: white;
+}
+
+footer .footer-title {
+  font-weight: bold;
+  margin-bottom: 2em;
+  color: white;
+  font-size: 1.3em;
+}
+
+footer ul {
+  padding: 0px;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #0d1e51;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,103 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Ubuntu:wght@700&display=swap");
+
+// variable
+$primaryColor: #ee9300;
+$secondaryColor: #0d1e51;
+$tertiaryColor: #f69f26;
+$textColor: #7394ff;
+
+
+
+body{
+    .card-promo{
+        margin-top: 2em;
+        color: white;
+        box-shadow: 12px 23px 40px rgba(13, 30, 81, 0.3);
+        border: none;
+
+        .card-img-overlay{
+            padding: 3em;
+            box-sizing: border-box;
+            .card-title{
+                font-family: "Ubuntu",sans-serif;
+                color: $secondaryColor;
+                font-size: 2.5em;
+            }
+            .card-text{
+                font-size: 1.6em;
+            }
+            .btn-primary{
+                width: 150px;
+                height: 35px;
+                border: none;
+                background: linear-gradient(115.5deg, #F69F26 24.56%, #FB5A00 81.69%);
+                box-shadow: 12px 23px 25px rgba(13, 30, 81, 0.3);
+                border-radius: 5px;
+            }
+        }
+    }
+    .home-title{
+        font-family: "Ubuntu",sans-serif;
+        margin-top: 3em;
+        color: $secondaryColor;
+    }
+    .card-content{
+        margin-top: 1em;
+        padding: 3em;
+        padding-top: 0em;
+        box-shadow: 12px 23px 25px rgba(13, 30, 81, 0.2);
+        border: none;
+        border-radius: 20px;
+        .card-section{
+            margin-top: 2.5em;
+            padding: 2em;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            background: #F2F2F2;
+            border: 2px solid #F69F26;
+            border-radius: 20px;
+            .btn-primary{
+                width: 150px;
+                height: 35px;
+                border: none;
+                background: linear-gradient(115.5deg, #F69F26 24.56%, #FB5A00 81.69%);
+                box-shadow: 12px 23px 25px rgba(13, 30, 81, 0.3);
+                border-radius: 5px;
+            }
+        }
+    }
+    .card-content{
+        .card-recomendation{
+            margin: 1em auto;
+            border: none;
+            box-shadow: 12px 23px 25px rgba(13, 30, 81, 0.1);
+            border-radius: 16px;
+            overflow: hidden;
+            .card-title{
+                font-family: "Ubuntu",sans-serif;
+                color: $secondaryColor;
+                font-size: 1.5em;
+            }
+            .card-text{
+                margin-top: 1em;
+            }
+            .card-img-top{
+                padding: 1em;
+            }
+            .card-footer{
+                a{
+                    text-decoration: none;
+                    &:hover{
+                        color: $secondaryColor;
+                    }
+                }
+            }
+        }
+    }
+    .jarak{
+        height: 3em;
+    }
+}
+
+
